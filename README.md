@@ -7,7 +7,7 @@
 [![Total Downloads](https://poser.pugx.org/dlehren/omnipay-cardknox/d/total.png)](https://packagist.org/packages/dlehren/omnipay-cardknox)
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
-processing library for PHP 5.3+. This package implements Cardknox support for Omnipay.
+processing library for PHP 7+. This package implements Cardknox support for Omnipay.
 
 ## Installation
 
@@ -17,7 +17,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "dlehren/omnipay-cardknox": "1.0"
+        "kenny08gt/omnipay-cardknox": "1.0"
     }
 }
 ```
