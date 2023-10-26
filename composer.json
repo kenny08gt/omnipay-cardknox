@@ -1,5 +1,5 @@
 {
-    "name": "dlehren/omnipay-cardknox",
+    "name": "kenny08gt/omnipay-cardknox",
     "type": "library",
     "description": "Cardknox gateway for the Omnipay payment processing library",
     "keywords": [
@@ -10,12 +10,12 @@
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/dlehren/omnipay-cardknox",
+    "homepage": "https://github.com/kenny08gt/omnipay-cardknox",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dovid Ehrentrei",
-            "email": "dovidleibe@gmail.com"
+            "name": "Alan Hurtarte",
+            "email": "alan.hurtarte@gmail.com"
         }
     ],
     "autoload": {
@@ -23,14 +23,26 @@
     },
 
     "require": {
-        "omnipay/common": "~2.0"
+        "omnipay/common": "^3.2"
     },
     "require-dev": {
-        "omnipay/tests": "~2.0"
+        "omnipay/tests": "^4.1",
+        "satooshi/php-coveralls": "1.0.0",
+        "guzzlehttp/guzzle": "^6.5.5",
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "suggest": {
+        "guzzlehttp/guzzle": "To handle WebMoney payouts",
+        "ext-curl": "To handle WebMoney payouts"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "4.0.x-dev"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
         }
     }
 }
